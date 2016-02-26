@@ -1,2 +1,2 @@
-# nicolasing.github.io
+# nicolasying.github.io
 Personal github page
