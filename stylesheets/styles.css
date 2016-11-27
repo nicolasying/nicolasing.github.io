@@ -244,6 +244,7 @@ footer {
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
+  background: rbga(255,255,255,0.8);
 }
 
 @media print, screen and (max-width: 960px) {
