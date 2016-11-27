@@ -322,3 +322,15 @@ footer {
     font-size: 140%;
 }
 
+
+tr>td {
+    width: 80px;
+}
+
+tr {
+    width: 200px;
+}
+
+table {
+  width: 80%;
+}
