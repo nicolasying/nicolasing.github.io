@@ -67,6 +67,15 @@ p.Subcontent {
     margin-top: 0;
 }
 
+p.ReturnToTop {
+  float: right;
+  display: none;
+}
+
+div.ContentPart:hover p.ReturnToTop {
+  display: block;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
