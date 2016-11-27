@@ -182,7 +182,7 @@ header ul {
 }
 
 header li {
-  height:40px;
+  height:20px;
 }
 
 header li:first-child a {
@@ -199,7 +199,7 @@ header ul a {
   color:#999;
   display:block;
   text-align:center;
-  padding-top:14px;
+  padding-top:4px;
   height:34px;
 }
 
@@ -264,6 +264,14 @@ footer {
     padding-right:320px;
   }
 
+  header ul a {
+    padding-top:14px;
+  }
+  
+  header li {
+    height: 40px;
+  }
+
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
@@ -295,6 +303,7 @@ footer {
     position:static;
   }
 
+  
   pre, code {
     word-wrap:normal;
   }
