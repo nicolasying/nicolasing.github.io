@@ -6,6 +6,11 @@ body {
   font-weight:400;
 }
 
+@media (max-height: 700px) and (min-width: 720px) {
+  .short-hide {
+    display: none;
+  }
+}
 div.ContentPart {
   display: block;
   margin: 0 0 30px;
@@ -352,4 +357,9 @@ tr {
 
 table {
   width: 80%;
+}
+
+ul > li {
+    list-style-position: outside;
+    margin-left: -15pt;
 }
